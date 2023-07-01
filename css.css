@@ -1,0 +1,44 @@
+html {
+    font-family:'Roboto';
+}
+
+body {
+    background-size: 100% 100% 100% 100%;
+    background-color: rgb(12, 11, 11);
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+section {
+    margin: 0 auto;
+}
+
+.titulo {
+    text-align: center;
+    margin: 2rem 19rem;
+    padding: 1rem 1rem;
+    background-color: rgb(37, 36, 36);
+    border-radius: 0.4rem;
+    border: solid 0rem;
+    font-size: 2rem;
+}
+
+form {
+    margin: 2rem 19rem;
+    padding: 1rem 1rem;
+    background-color: rgb(37, 36, 36);
+    border-radius: 0.4rem;
+    border: solid 0rem;
+}
+
+form input {
+    margin: 0 auto;
+    
+}
+
+form label {
+    text-align: left;
+}
+.preguntas {
+    margin-top: 2rem;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <section>
+    <header class="titulo">FORMULARIO</header>
+    <form>
+        <label>Tipo de Identificacion</label><br>
+        <select>
+        <option value="">V</option>
+        <option value="">E</option>
+        <option value="">j</option>
+        </select>
+        
+        <label class="preguntas" for="CI">Identificacion</label><br>
+        <input type="number" id="CI" max="999999999" required><br>
+
+        <label class="preguntas" > nombre :</label><br>
+        <input type="text" placeholder="Nombre" required><br>
+
+        <label class="preguntas" >Contraseña</label><br>
+        <input type="password" placeholder="Contraseña" required><br>
+
+        <label class="preguntas" >Email</label><br>
+        <input type="email" placeholder="a@a.com" required><br>
+
+        <label class="preguntas" type="hidden" >Sexo</lab><br>
+        <input type="radio" name="Sexo" id="">Male<br>
+        <input type="radio" name="Sexo" id="">Female<br>
+
+        <label class="preguntas" >Fecha de nacimiento</label><br>
+        <input type="date"><br>
+
+        <label class="preguntas" >Limpiar</label><br>
+        <input type="reset"><br>
+        <br>
+        
+        <input type="submit">
+    </form>
+    </section>
+    
+</body>
+</html>
